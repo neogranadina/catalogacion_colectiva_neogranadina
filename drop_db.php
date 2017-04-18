@@ -2,7 +2,9 @@
 
 include('config.php');
 
-$sql = "DROP TABLE `bio_dataset`, `esquemas`, `eventos_instituciones`, `instituciones`, `persona`";
+/* No conecta con la base de datos :\ */
+
+$sql = "DROP TABLE `agrupacion_documental`, `descripcion_unidad_documental`, `eventos_personas`, `identidad_archivo`, `info_adicional_ud`, `instituciones`, `jurisdiccion`, `legajo`, `metadata_img_digitalizada`, `personas`, `ubicacion`, `unidad_documental`";
 mysql_select_db( 'neogranadina' );
 $retval = mysql_query($sql, $conn);
 if(! $retval )

@@ -1,0 +1,7 @@
+neogranadina.form:
+  path: '/neogranadina'
+  defaults:
+    _title: 'Formulario preliminar'
+    _form: 'Drupal\neogranadina\Form\BaseForm'
+    requirements:
+      _access: 'TRUE'

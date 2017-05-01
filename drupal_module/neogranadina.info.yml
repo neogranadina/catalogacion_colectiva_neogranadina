@@ -1,0 +1,5 @@
+name: Catalogación colectiva Neogranadina
+description: Formas básicas para gestionar la información archivística y metadatos asociados a unidades documentales del archivo digital Neogranadina.
+type: module
+version: pre-alpha
+core: 8.x

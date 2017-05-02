@@ -1,0 +1,6 @@
+name: Módulo Neogranadina
+type: module
+description: 'Módulo para la catalogación colectiva del archivo digital de Neogranadina.'
+package: Custom
+version: 8.x-1.x
+core: 8.x

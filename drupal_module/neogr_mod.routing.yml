@@ -1,0 +1,15 @@
+demo_form.info:
+  path: '/demo/form'
+  defaults:
+    _title: 'Ruta'
+    _controller: '\Drupal\neogr_mod\Controller\DemoFormController::infoPage'
+  requirements:
+    _permission: 'access content'
+
+demo_form.basic_form:
+  path: '/demo/form/basic'
+  defaults:
+    _title: 'Formulario básico Neogranadina'
+    _form: '\Drupal\neogr_mod\Form\BasicForm'
+  requirements:
+    _permission: 'access content'
